@@ -129,13 +129,30 @@ sudo rmmod monitor
 | # | What to Demonstrate         | What the Screenshot Must Show                             |
 | - | --------------------------- | --------------------------------------------------------- |
 | 1 | Multi-container supervision | At least two containers running under the same supervisor |
+<img width="1001" height="416" alt="1-multi-container-ter1" src="https://github.com/user-attachments/assets/b6d5a568-ad43-4dc4-8493-a338d71b20c8" />
+<img width="1001" height="416" alt="1-multi-container-ter2" src="https://github.com/user-attachments/assets/df4d32ba-6ec0-49e8-a150-13999fae4cc5" />
 | 2 | Metadata tracking           | Output of `engine ps` showing container details           |
+<img width="988" height="119" alt="2-metadata-ps" src="https://github.com/user-attachments/assets/9beca45d-be9d-4d82-9b18-e2255aed4ee3" />
 | 3 | Bounded-buffer logging      | Log file output showing captured logs                     |
+<img width="983" height="246" alt="3-logging" src="https://github.com/user-attachments/assets/95c5dfc4-6311-4841-bb6f-e389f3b46bb3" />
 | 4 | CLI and IPC                 | A command being sent and response from supervisor         |
+<img width="1211" height="109" alt="4-cli-ipc" src="https://github.com/user-attachments/assets/ee7c9571-55ae-423a-84f6-9d29daf22ee3" />
 | 5 | Soft-limit warning          | Warning message in `dmesg` or logs                        |
+<img width="1077" height="58" alt="5-6-initial" src="https://github.com/user-attachments/assets/1d3148f8-d28d-413d-bff6-c5b10ed11e0b" />
+<img width="1211" height="104" alt="5-soft-limit-ter1" src="https://github.com/user-attachments/assets/36123df8-152a-4592-9e08-930b5d1508d4" />
+<img width="1211" height="111" alt="5-soft-limit-ter2" src="https://github.com/user-attachments/assets/f9afb541-e614-461e-bb96-b3b503249b59" />
 | 6 | Hard-limit enforcement      | Container killed after exceeding limit                    |
+<img width="1211" height="99" alt="6-hard-limit-ter1" src="https://github.com/user-attachments/assets/76c34601-6c0a-4f7f-a238-e633a2b60ec1" />
+<img width="1156" height="86" alt="6-hard-limit-ter2" src="https://github.com/user-attachments/assets/e663f719-e232-45d2-b4e4-7cb1324e522f" />
 | 7 | Scheduling experiment       | Difference in execution between workloads                 |
+<img width="1211" height="62" alt="7-scheduler-ter1" src="https://github.com/user-attachments/assets/8f27af8c-11ef-46f9-9541-1a322f8e9a49" />
+<img width="1211" height="180" alt="7-scheduler-ter2" src="https://github.com/user-attachments/assets/7c609252-ad7d-49d9-b254-f5267fef4ab1" />
+<img width="1211" height="66" alt="7-scheduler-ter3" src="https://github.com/user-attachments/assets/21284980-ec89-4775-98b6-9a89df2c8b46" />
+<img width="1211" height="140" alt="7-scheduler-ter4" src="https://github.com/user-attachments/assets/70a59d7a-c584-417d-b995-7831e26c8e4c" />
 | 8 | Clean teardown              | No zombie processes after stopping everything             |
+<img width="1211" height="137" alt="8-cleanup-ter1" src="https://github.com/user-attachments/assets/fe1924b6-e781-470b-bf55-7bd952e1174c" />
+<img width="1211" height="166" alt="8-cleanup-ter2" src="https://github.com/user-attachments/assets/9ff279f6-b05b-475e-ad77-a43805ada0a3" />
+<img width="1211" height="74" alt="8-cleanup-ter3" src="https://github.com/user-attachments/assets/2eaa9247-0efc-4784-8fc5-1b2e6bf6b372" />
 
 ---
 
